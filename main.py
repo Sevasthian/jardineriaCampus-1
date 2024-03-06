@@ -1,4 +1,6 @@
 from tabulate import tabulate
 import modules.getClients as cliente
+import modules.getOficina as oficina
 
-print(tabulate(cliente.getAllClientPaisRegionCiudad("Australia", "Sur"), tablefmt="grid"))
+print(tabulate(oficina.getAllCiudadTelefono("España"), tablefmt="grid"))
+
